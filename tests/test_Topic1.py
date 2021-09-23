@@ -22,9 +22,6 @@ def test_exercise_1():
 def test_exercise_2():
     assert Topic1_helper.frequent_words("ACAACTATGCATACTATCGGGAACTATCCT",4) == answers['answer_exercise_2a']
 
-def test_question_1():
-    assert Topic1_helper.answer_question_1() == answers['answer_question_1']
-
 def test_exercise_3():
     assert Topic1_helper.reverse_complement("cagt") == answers['answer_exercise_3']
     
