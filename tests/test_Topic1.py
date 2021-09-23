@@ -29,10 +29,10 @@ def test_exercise_3():
     assert Topic1_helper.reverse_complement("cagt") == answers['answer_exercise_3']
     
 def test_exercise_4():
-    assert Topic1_helper.frequency_table(Topic1_helper.text,3) == answers["answer_exercise_4"]
+    assert Topic1_helper.frequency_table(text,3) == answers["answer_exercise_4"]
 
 def test_exercise_5():
-    assert Topic1_helper.better_frequent_words(Topic1_helper.text,9) == answers["answer_exercise_5"]
+    assert Topic1_helper.better_frequent_words(text,9) == answers["answer_exercise_5"]
     
 def test_exercise_6():
-    assert Topic1_helper.skew(Topic1_helper.genome) == answers["answer_exercise_6"]
+    assert Topic1_helper.skew(genome) == answers["answer_exercise_6"]
