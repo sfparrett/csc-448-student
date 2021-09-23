@@ -2,7 +2,8 @@ import numpy as np
 
 def count(text,pattern):
     count = 0
-    # YOUR SOLUTION HERE
+    for i in range(len(text)- len(pattern)): 
+        # YOUR SOLUTION HERE
     return count
 
 def frequent_words(text,k):
